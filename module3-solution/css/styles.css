@@ -16,11 +16,11 @@ body {
 .navbar-brand h1{
   color: white;
   font-family: 'Cormorant', serif;
-  font-size: 1.6em;
-  text-shadow: 1px 1px 1px #BFC9CA;
+  font-size: 2em;
+  text-shadow: 2px 2px 2px #646667;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: .85;
+  line-height: unset;
  }
 
 #nav-list {
@@ -33,8 +33,7 @@ body {
 }
 #nav-list a:hover {
   background: #BFC9CA;
-  opacity: .5;
-  
+  opacity: .5; 
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -50,8 +49,15 @@ body {
 #main-content h2{
 	margin-bottom: 25px;
 }
-#main-content p{
-	height: 1000px;
-	padding: 35px;
+.text-center{
+  font-weight: bold;
 }
-
+.row section{
+    margin: 5px auto 25px;
+    border: 1px solid #BFC9CA;
+    padding: 50px 20px 20px 20px;
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+.row section hr{
+  width: 50%;
+}
